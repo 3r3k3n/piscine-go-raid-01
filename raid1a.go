@@ -2,7 +2,7 @@ package raid1a
 
 import "github.com/01-edu/z01"
 
-func Raid1a(x,y int) {
+func Raid1a(x, y int) {
 	if x == 0 || y == 0 {
 		z01.PrintRune(10)
 	} else {
@@ -11,7 +11,7 @@ func Raid1a(x,y int) {
 			z01.PrintRune(10)
 		} else {
 			if y == 1 {
-				for i:=1; i <= x; i++ {
+				for i := 1; i <= x; i++ {
 					if i == 1 || i == x {
 						z01.PrintRune('o')
 					} else {
@@ -20,7 +20,7 @@ func Raid1a(x,y int) {
 				}
 				z01.PrintRune(10)
 			} else {
-				for i:=1; i <= x; i++ {
+				for i := 1; i <= x; i++ {
 					if i == 1 || i == x {
 						z01.PrintRune('o')
 					} else {
@@ -28,8 +28,8 @@ func Raid1a(x,y int) {
 					}
 				}
 				z01.PrintRune(10)
-				for j:=1; j <= y-2; j++ {
-					for k:=1; k <= x; k++ {
+				for j := 1; j <= y - 2; j++ {
+					for k := 1; k <= x; k++ {
 						if k == 1 || k == x {
 							z01.PrintRune('|')
 						} else {
@@ -38,7 +38,7 @@ func Raid1a(x,y int) {
 					}
 					z01.PrintRune(10)
 				}
-				for i:=1; i <= x; i++ {
+				for i := 1; i <= x; i++ {
 					if i == 1 || i == x {
 						z01.PrintRune('o')
 					} else {
