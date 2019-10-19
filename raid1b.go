@@ -12,7 +12,7 @@ func Raid1b(x, y int) {
 				z01.PrintRune(10)
 			} else {
 				if y == 1 {
-					for i:=1; i <= x; i++ {
+					for i := 1; i <= x; i++ {
 						if i == 1 {
 							z01.PrintRune('/')
 						} else if i == x {
@@ -23,7 +23,7 @@ func Raid1b(x, y int) {
 					}
 					z01.PrintRune(10)
 				} else {
-					for i:=1; i <= x; i++ {
+					for i := 1; i <= x; i++ {
 						if i == 1 {
 							z01.PrintRune('/')
 						} else if i == x {
@@ -33,7 +33,7 @@ func Raid1b(x, y int) {
 						}
 					}
 					z01.PrintRune(10)
-					for j:=1; j <= y-2; j++ {
+					for j := 1; j <= y-2; j++ {
 						for k:=1; k <= x; k++ {
 							if k == 1 || k == x {
 								z01.PrintRune('*')
@@ -43,7 +43,7 @@ func Raid1b(x, y int) {
 						}
 						z01.PrintRune(10)
 					}
-					for i:=1; i <= x; i++ {
+					for i := 1; i <= x; i++ {
 						if i == 1 {
 							z01.PrintRune('\\')
 						} else if i == x {
