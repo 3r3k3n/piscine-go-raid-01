@@ -1,8 +1,8 @@
-package raid1b
+package main
 
 import "github.com/01-edu/z01"
 
-func Raid1b(x,y int) {
+func Raid1b(x, y int) {
 	if x < 0 || y < 0 {
 	} else {
 		if x == 0 || y == 0 {
@@ -12,7 +12,7 @@ func Raid1b(x,y int) {
 				z01.PrintRune(10)
 			} else {
 				if y == 1 {
-					for i:=1; i <= x; i++ {
+					for i := 1; i <= x; i++ {
 						if i == 1 {
 							z01.PrintRune('/')
 						} else if i == x {
@@ -23,7 +23,7 @@ func Raid1b(x,y int) {
 					}
 					z01.PrintRune(10)
 				} else {
-					for i:=1; i <= x; i++ {
+					for i := 1; i <= x; i++ {
 						if i == 1 {
 							z01.PrintRune('/')
 						} else if i == x {
@@ -33,8 +33,8 @@ func Raid1b(x,y int) {
 						}
 					}
 					z01.PrintRune(10)
-					for j:=1; j <= y-2; j++ {
-						for k:=1; k <= x; k++ {
+					for j := 1; j <= y-2; j++ {
+						for k := 1; k <= x; k++ {
 							if k == 1 || k == x {
 								z01.PrintRune('*')
 							} else {
@@ -43,7 +43,7 @@ func Raid1b(x,y int) {
 						}
 						z01.PrintRune(10)
 					}
-					for i:=1; i <= x; i++ {
+					for i := 1; i <= x; i++ {
 						if i == 1 {
 							z01.PrintRune('\\')
 						} else if i == x {
@@ -53,8 +53,12 @@ func Raid1b(x,y int) {
 						}
 					}
 					z01.PrintRune(10)
-				}	 
+				}
 			}
 		}
 	}
+}
+
+func main() {
+	Raid1b(1,5)
 }
