@@ -1,4 +1,4 @@
-package main
+package raid1a
 
 import "github.com/01-edu/z01"
 
@@ -52,8 +52,4 @@ func Raid1a(x, y int) {
 		}
 
 	}
-}
-
-func main() {
-	Raid1a(5,3)
 }
