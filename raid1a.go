@@ -4,10 +4,10 @@ import "github.com/01-edu/z01"
 
 func Raid1a(x, y int) {
 	if x < 0 || y < 0 {
-		z01.PrintRune('')
+		z01.PrintRune(' ')
 	}
 	if x == 0 || y == 0 {
-		z01.PrintRune('')
+		z01.PrintRune(' ')
 	} else {
 		if x == 1 && y == 1 {
 			z01.PrintRune('o')
