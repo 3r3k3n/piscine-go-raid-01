@@ -1,4 +1,5 @@
 package raid1a
+
 import "github.com/01-edu/z01"
 
 func Raid1a(x, y int) {
@@ -45,7 +46,7 @@ func Raid1a(x, y int) {
 					}
 				}
 				z01.PrintRune(10)
-			}	 
+			}
 		}
 	}
 }
