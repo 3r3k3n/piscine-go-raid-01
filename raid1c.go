@@ -2,7 +2,7 @@ package raid1c
 
 import "github.com/01-edu/z01"
 
-func Raid1b(x, y int) {
+func Raid1c(x, y int) {
 	if x < 0 || y < 0 {
 	} else {
 		if x == 0 || y == 0 {
