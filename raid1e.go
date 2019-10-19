@@ -1,5 +1,4 @@
 package raid1e
-
 import "github.com/01-edu/z01"
 
 func Raid1e(x, y int) {
