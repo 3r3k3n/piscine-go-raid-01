@@ -58,7 +58,10 @@ func Raid1b(x, y int) {
 		}
 	}
 }
+<<<<<<< HEAD:raid1b.go
 
 func main() {
 	Raid1b(1,5)
 }
+=======
+>>>>>>> d24dbbde2342e6424b50310bfa26075171edbd7b:raid1b/raid1b.go
